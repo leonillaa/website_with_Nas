@@ -1,0 +1,267 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first_box">
+        <div class="header">
+            <div class="first_inbox">
+                <div>
+                    <img src="search-normal.png" id="img1">
+                </div>
+                <div>
+                    <input type="text" id="inv">
+                </div>
+            </div>
+            <div class="second_inbox">
+                <div><img src="Vector.png" id="img2"> </div>
+                <div id="text1">English</div>
+                <div id="s1"><button id="button1"><svg width="9.333740" height="5.094971" viewBox="0 0 9.33374 5.09497"
+                            fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Vector"
+                                d="M8.61 0L4.45 0L0.71 0C0.07 0 -0.25 0.77 0.21 1.22L3.66 4.68C4.21 5.23 5.11 5.23 5.67 4.68L6.98 3.36L9.12 1.22C9.57 0.77 9.25 0 8.61 0Z"
+                                fill="#FFC024" fill-opacity="1.000000" fill-rule="nonzero" />
+                        </svg>
+                    </button></div>
+            </div>
+            <div class="third_inbox">
+                <div>
+                    <button id="button2"><svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs>
+                                <clipPath id="clip2340_1268">
+                                    <rect id="Button" rx="4.000000" width="48.000000" height="48.000000" fill="white"
+                                        fill-opacity="0" />
+                                </clipPath>
+                                <linearGradient x1="14.666504" y1="24.999960" x2="31.308170" y2="24.999960"
+                                    id="paint_linear_2340_1273_0" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F09308" />
+                                    <stop offset="1.000000" stop-color="#8A5505" />
+                                </linearGradient>
+                                <linearGradient x1="25.500000" y1="21.041708" x2="28.416666" y2="21.041708"
+                                    id="paint_linear_2340_1274_0" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F09308" />
+                                    <stop offset="1.000000" stop-color="#8A5505" />
+                                </linearGradient>
+                                <linearGradient x1="25.500000" y1="19.583292" x2="31.333334" y2="19.583292"
+                                    id="paint_linear_2340_1275_0" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F09308" />
+                                    <stop offset="1.000000" stop-color="#8A5505" />
+                                </linearGradient>
+                            </defs>
+                            <rect id="Button" rx="4.000000" width="48.000000" height="48.000000" fill="#ECFDF5"
+                                fill-opacity="1.000000" />
+                            <g clip-path="url(#clip2340_1268)">
+                                <rect id="Light/Icon" width="20.000000" height="20.000000"
+                                    transform="translate(14.000000 14.000000)" fill="#FFFFFF" fill-opacity="0" />
+                                <path id="Vector"
+                                    d="M31.09 31.18C30.95 31.48 30.77 31.76 30.53 32.03C30.12 32.48 29.67 32.8 29.16 33.01C28.66 33.22 28.12 33.33 27.54 33.33C26.69 33.33 25.78 33.13 24.82 32.72C23.86 32.31 22.9 31.76 21.95 31.07C20.99 30.37 20.09 29.6 19.22 28.74C18.36 27.87 17.59 26.96 16.89 26.01C16.21 25.06 15.66 24.11 15.26 23.17C14.86 22.22 14.66 21.31 14.66 20.45C14.66 19.88 14.76 19.34 14.96 18.84C15.16 18.33 15.48 17.86 15.92 17.45C16.45 16.92 17.04 16.66 17.65 16.66C17.89 16.66 18.12 16.71 18.33 16.81C18.54 16.91 18.74 17.06 18.89 17.28L20.82 20C20.97 20.21 21.08 20.4 21.15 20.59C21.23 20.76 21.27 20.94 21.27 21.1C21.27 21.29 21.21 21.5 21.09 21.69C20.99 21.88 20.83 22.08 20.63 22.28L19.99 22.94C19.9 23.03 19.86 23.14 19.86 23.27C19.86 23.34 19.87 23.39 19.89 23.46C19.91 23.53 19.94 23.58 19.95 23.63C20.1 23.9 20.36 24.26 20.73 24.7C21.1 25.13 21.5 25.57 21.94 26.01C22.39 26.45 22.82 26.86 23.26 27.24C23.7 27.6 24.05 27.85 24.34 28C24.38 28.02 24.43 28.04 24.49 28.07C24.55 28.1 24.62 28.1 24.7 28.1C24.84 28.1 24.95 28.05 25.04 27.96L25.67 27.34C25.88 27.13 26.08 26.97 26.27 26.87C26.46 26.75 26.65 26.7 26.86 26.7C27.02 26.7 27.19 26.73 27.37 26.8C27.55 26.88 27.74 26.99 27.95 27.13L30.71 29.09C30.93 29.24 31.08 29.41 31.17 29.62C31.25 29.83 31.3 30.04 31.3 30.27C31.3 30.57 31.24 30.88 31.09 31.18Z"
+                                    stroke="url(#paint_linear_2340_1273_0)" stroke-opacity="1.000000"
+                                    stroke-width="1.700000" />
+                                <path id="Vector"
+                                    d="M28.41 22.5C28.41 22 28.02 21.23 27.44 20.6C26.9 20.03 26.2 19.58 25.5 19.58"
+                                    stroke="url(#paint_linear_2340_1274_0)" stroke-opacity="1.000000"
+                                    stroke-width="1.700000" stroke-linejoin="round" stroke-linecap="round" />
+                                <path id="Vector" d="M31.33 22.5C31.33 19.27 28.72 16.66 25.5 16.66"
+                                    stroke="url(#paint_linear_2340_1275_0)" stroke-opacity="1.000000"
+                                    stroke-width="1.700000" stroke-linejoin="round" stroke-linecap="round" />
+                                <g opacity="0.000000" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="forth_inbox">
+                <img src="Text.png" id="img3">
+            </div>
+        </div>
+        <hr id="first_hr">
+        <div class="qw">Фруктові коробки з </div><br>
+        <div class="qw1"> доставкою додому</div>
+        <div class="fifth_inbox">
+            <div><button id="button3">Демо-box</button></div>
+            <div><button class="button4"><img src="ddd.png" class="button4"></button></div>
+        </div>
+        <div class="sixth_inbox">
+            <div class="first_ininbox">
+                <div id="q1">
+                    Тільки свіжі фрукти
+                </div>
+                <div id="q2">
+                    Упаковка не боїться
+                    <br>
+                    спеки та холоду
+                </div>
+            </div>
+            <div class="second_ininbox">
+                <div id="q3">
+                    Поставки мінімум
+                    <br>
+                    3 рази на тиждень
+                </div>
+                <div id="q4">
+                    Індивідуальна захисна
+                    <br>
+                    упаковка на кожний фрукт
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="first_text">Коробки з екзотичними фруктами</div>
+    <div class="second_box">
+        <div class="first_row">
+            <div id="boxy1"><img src="image 1068.png" id="imgg1">
+                <p id="t1">Авокадо Box</p>
+                <p id="t11">Вага: (1,4 - 1,6 кг)</p>
+                <button class="buttons">620грн</button>
+            </div>
+            <div id="boxy2"><img src="image 1064.png" id="imgg2">
+                <p id="t2">Смачненька</p>
+                <p id="t22">Вага: (0,7 кг)</p>
+                <button class="buttons">680грн</button>
+            </div>
+            <div id="boxy3"><img src="image 1066.png" id="imgg3">
+                <p id="t3">Вітамінка</p>
+                <p id="t33">Вага: (3 кг)</p>
+                <button class="buttons">770грн</button>
+            </div>
+        </div>
+        <div class="second_row">
+            <div id="boxy4"><img src="image 1072.png" id="imgg4">
+                <p id="t4">Екзотик L</p>
+                <p id="t44">Вага: (4,5 - 5 кг)</p>
+                <button class="buttons">3800грн</button>
+            </div>
+            <div id="boxy5"><img src="image 1067.png" id="imgg5">
+                <p id="t5">З Днем народження</p>
+                <p id="t55">Вага: (2 - 2,1 кг)</p>
+                <button id="smallone" class="buttons">2710грн</button>
+            </div>
+            <div id="boxy6"><img src="image 1071.png" id="imgg6">
+                <p id="t6">Вибір CrazyBox</p>
+                <p id="t66">Вага: (3 - 4 кг)</p>
+                <button class="buttons">1800грн</button>
+            </div>
+        </div>
+    </div>
+    <div class="third_box">
+        Категорії
+    </div>
+    <div id="polu">
+        <button id="d1"><i>Eкзотичні фрукти</i></button>
+        <button id="d2"><i>Сезонні фрукти,ягоди</i></button>
+        <button id="d3"><i>Сухофрукти</i></button>
+       <button id="d4"><i>Корисні солодощі</i></button>                                    
+    </div>
+
+    
+
+
+    <div class="best_choice">
+         Кращий вибір 
+    </div>
+<div class="knopo4ka">
+    <button class="button4ik">
+   <tsx-1>    Вигода на готових коробках до 250грн </tsx-1> 
+    </button>
+   
+</div>
+   
+   
+   
+   
+    <div id="first_text"></div>
+    <div class="second_box">
+        <div class="first_row">
+            <div id="boxy1"><img src="image 1073.png" id="imgg1">
+                <p id="t1">Мангостан</p>
+                <p id="t11">Вага: (250гр.)</p>
+                <button class="buttons">380грн</button>
+            </div>
+            <div id="boxy2"><img src="image 1074.png" id="imgg2">
+                <p id="t2">Жовта пітахайя</p>
+                <p id="t22">Вага: (1кг)</p>
+                <button class="buttons">330грн</button>
+            </div>
+            <div id="boxy3"><img src="image 1075.png" id="imgg3">
+                <p id="t3">Гранаділла</p>
+                <p id="t33">Вага: (1кг)</p>
+                <button class="buttons">180грн</button>
+            </div>
+        </div>
+
+        
+    <div class="zberu_box">
+Збери свою коробку
+
+    </div>
+    <div class="knopo4ka-2">
+        <button class="button4ik-2">
+           <p class="tsx-2"> Додай будь-які фрукти у свою  коробку </p>
+        </button>
+       
+    </div>
+   
+    <div class="second_row">
+        <div id="box-1"><img src="image 1080.png" id="imge1">
+            <p id="x-1">Королівське      манго </p>
+            <p id="x-11">Вага: (1шт.)</p>
+            <button class="buttons-1">310грн</button>
+        </div>
+        <div id="box-2"><img src="image 1078.png" id="imge2">
+            <p id="x-2"> Маракуйя</p>
+            <p id="x-22">Вага: (250 гр.)</p>
+            <button class="buttons-2">280грн</button>
+        </div>
+        <div id="box-3"><img src="image 1081.png" id="imge3">
+            <p id="x-3">Рамбутан</p>
+            <p id="x-33">Вага: (200 гр.)</p>
+            <button class="buttons-3">320грн</button>
+        </div>
+    </div>
+</div>
+  
+<div class="footer">
+<div class="imgge"  ><img src="image 1083.png" id="imgge-id"  >
+
+</div>
+<div class="icons">
+    <img src="1.png"  >
+    <img src="2.png"  >
+    <img src="3.png"  >
+    <img src="4.png"  >
+</div>
+<div class="texT">
+<p class="texT1">Блог</p>
+<p class="texT2">Корпоративним клієнтам</p>
+<p class="texT3">Доставка і оплата</p>
+<p class="texT4">Політика конфіденційності</p>
+<p class="texT5">Угода користувача</p>
+<p class="texT6"> Екзотичні фрукти</p>
+<p class="texT7">Корисні солодощі</p>
+</div>
+
+<div >
+<button class="line"></button>
+</div>
+<div class="tsx-3">
+<p class="ttt">© 2024 CrazyBox - доставка екзотичних і сезонних фруктів в подарункових коробках по Києву і Україні! Фруктові набори з екзотичних фруктів з Таїланду та інших куточків нашої планети !. Всі права захищені.</p>
+</div>
+</div>
+
+</body>
+
+</html>
